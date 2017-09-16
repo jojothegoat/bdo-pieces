@@ -1,0 +1,19 @@
+{
+  "name": "bdo-pieces",
+  "description": "Discord Bot modules for Black Desert Online based on Komada.",
+  "scripts": {
+    "test": "eslint commands providers functions inhibitors monitors packages",
+    "lint": "npm run test -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojothegoat/bdo-pieces.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/jojothegoat/bdo-pieces#readme",
+  "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
