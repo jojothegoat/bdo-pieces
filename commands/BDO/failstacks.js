@@ -110,6 +110,7 @@ exports.help = {
   usage: "<enchant_level:int{0,19}> [failstack_count:int{0,999}]",
   extendedHelp: "Use your current enchantment level and failstack count.",
   usageDelim: " ",
+  type: "commands"
 };
 
 exports.conf = {
